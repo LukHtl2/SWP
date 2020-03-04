@@ -218,25 +218,25 @@ public class PokerProgramm {
 		double prozentFullHouse = anzahlFullHouse * 100.0 / versuche;
 		double prozentHighCard = anzahlHighCard * 100.0 / versuche;
 		System.out.printf("Anzahl Vierling: %d bei %d Versuchen --> Wahrscheinlichkeit Vierling: %f %s%n", anzahlVierling,
-				versuche, prozentVierling, "%");
+				versuche, prozentVierling, "%; laut Wikipedia 0,0240 %");
 		System.out.printf("Anzahl Drilling: %d bei %d Versuchen --> Wahrscheinlichkeit Drilling: %f %s%n", anzahlDrilling,
-				versuche, prozentDrilling, "%");
+				versuche, prozentDrilling, "%; laut Wikipedia 2,11 %");
 		System.out.printf("Anzahl Sreigth: %d bei %d Versuchen --> Wahrscheinlichkeit Streight: %f %s%n", anzahlStreight,
-				versuche, prozentStreight, "%");
+				versuche, prozentStreight, "%; laut Wikipedia 0,392 %");
 		System.out.printf("Anzahl Flush: %d bei %d Versuchen --> Wahrscheinlichkeit Flush: %f %s%n", anzahlFlush,
-				versuche, prozentFlush, "%");
+				versuche, prozentFlush, "%; laut Wikipedia  0,197 %");
 		System.out.printf("Anzahl Streight Flush: %d bei %d Versuchen --> Wahrscheinlichkeit Streight Flush: %f %s%n",
-				anzahlStreightFlush, versuche, prozentStreightFlush, "%");
+				anzahlStreightFlush, versuche, prozentStreightFlush, "%; laut Wikipedia  0,00139 %");
 		System.out.printf("Anzahl Royal Flush: %d bei %d Versuchen --> Wahrscheinlichkeit Royal Flush: %f %s%n",
-				anzahlRoyalFlush, versuche, prozentRoyalFlush, "%");
+				anzahlRoyalFlush, versuche, prozentRoyalFlush, "%; laut Wikipedia 0,000154 %");
 		System.out.printf("Anzahl Pair: %d bei %d Versuchen --> Wahrscheinlichkeit Pair: %f %s%n", anzahlPair, versuche,
-				prozentPair, "%");
+				prozentPair, "%; laut Wikipedia 42,26 %");
 		System.out.printf("Anzahl Two Pair: %d bei %d Versuchen --> Wahrscheinlichkeit Two Pair: %f %s%n", anzahlTwoPair,
-				versuche, prozentTwoPair, "%");
+				versuche, prozentTwoPair, "%; laut Wikipedia 4,75 %");
 		System.out.printf("Anzahl Full House: %d bei %d Versuchen --> Wahrscheinlichkeit Full House: %f %s%n",
-				anzahlFullHouse, versuche, prozentFullHouse, "%");
+				anzahlFullHouse, versuche, prozentFullHouse, "%; laut Wikipedia 0,144 %");
 		System.out.printf("Anzahl High Card: %d bei %d Versuchen --> Wahrscheinlichkeit High Card: %f %s%n",
-				anzahlHighCard, versuche, prozentHighCard, "%");
+				anzahlHighCard, versuche, prozentHighCard, "%; laut Wikipedia 50,12 %");
 	}
 
 	public static void main(String[] args) {
